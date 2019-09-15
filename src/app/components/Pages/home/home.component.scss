@@ -1,0 +1,63 @@
+.home-container {
+  .home {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4em;
+    background: url("../../../../assets/images/backgndImage1.png") no-repeat;
+    background-size: 100% 90%;
+    background-position: 100% -8%;
+
+    .main {
+      display: flex;
+      min-height: 100vh;
+      flex-grow: 1;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Abhaya Libre', serif;
+      width: 100%;
+      margin: 0 auto;
+      .cta {
+        width: 35%;
+        margin-left: 4%;
+        transform: translateY(-10%);
+        h2 {
+        font-size: 4.2em;
+        margin-bottom: 0.5em;
+        color: white;
+      }
+      p {
+        font-size: 1.4em;
+        color: white;
+      }
+      button {
+        border: 2px solid white;
+        width: 9em;
+        padding: 0.8em;
+        font-family: 'Abhaya Libre', serif;
+        font-size: 1em;
+        font-weight: bold;
+        background-color: transparent;
+        color: white;
+        border-radius: 0.8em;
+      }
+      }
+      
+      .illustration {
+        width: 40%;
+        transform: translateY(10%);
+        div {
+          margin-right: 4em;
+          background: url("../../../../assets/images/illustration.png") no-repeat;
+          background-size: contain;
+          height: 30em;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

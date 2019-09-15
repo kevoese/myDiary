@@ -1,0 +1,53 @@
+.about {
+  margin-top: 5em;
+  .info {
+    color: #3F3D56;
+    margin: 0 4em;
+    font-family: 'Red Hat Display', sans-serif;
+    h2 {
+      text-align: center;
+      font-size: 2em;
+    } 
+    p {
+      color: #343434;
+      font-size: 1.2em;
+    }
+  }
+  .feature {
+    display: flex;
+    margin: 5em 0;
+    width: 100%;
+    justify-content: space-between !important;
+    align-items: center;
+
+    .illustration {
+      margin: 4em 0;
+      padding:0 4em;
+      img {
+        height: 20em;
+        width: 30em;
+      }
+      
+      // .add-daily-stories {
+      //   background: url("../../../assets/images/add-daily-stories.png") no-repeat;
+      //   background-size: contain;
+      //   height: 30em;
+      //   width: 100%;
+      // }
+
+      // .feel-safe {
+      //   background: url("../../../assets/images/feel-safe.png") no-repeat;
+      //   background-size: contain;
+      //   height: 25em;
+      //   width: 100%;
+      // }
+
+      // .share-options {
+      //   background: url("../../../assets/images/share-options.png") no-repeat;
+      //   background-size: contain;
+      //   height: 25em;
+      //   width: 100%;
+      // }
+    }
+  }
+}
