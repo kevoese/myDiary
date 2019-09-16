@@ -1,3 +1,69 @@
 <div class="register">
-  
+  <div class="reg-card">
+    <div class="bubble">
+        <svg width="124" height="175" viewBox="0 0 124 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M45.8261 111C89.0004 111 124 77.5906 124 36.3781C124 23.1695 120.405 10.7625 114.098 0H20C8.95431 0 0 8.95432 0 20V96.8405C12.8758 105.748 28.7084 111 45.8261 111Z" fill="#0066FF" fill-opacity="0.8"/>
+          <path d="M55 160C55 168.284 48.2843 175 40 175C31.7157 175 25 168.284 25 160C25 151.716 31.7157 145 40 145C48.2843 145 55 151.716 55 160Z" fill="#0066FF" fill-opacity="0.8"/>
+          <path d="M58.5 155C58.5 163.008 52.0081 169.5 44 169.5C35.9919 169.5 29.5 163.008 29.5 155C29.5 146.992 35.9919 140.5 44 140.5C52.0081 140.5 58.5 146.992 58.5 155Z" stroke="black"/>
+          </svg>
+    </div>
+  <div class="reg-form">
+    <h1>Sign up</h1>
+    <app-form-input 
+        name="email" 
+        type="email" 
+        placeholder="johdoe@example.com"
+        title = "Email"
+      ></app-form-input>
+      <app-form-input 
+        name="name" 
+        type="text" 
+        placeholder="John Doe"
+        title = "Full Name"
+      ></app-form-input>
+      <div class="password-inputs">
+        <app-form-input 
+          name="password" 
+          inputType="password"
+          type="password" 
+          placeholder=""
+          title = "Password"
+          ></app-form-input>
+          <app-form-input 
+          name="password" 
+          inputType="password"
+          type="password" 
+          placeholder=""
+          title = "Confirm Password"
+          ></app-form-input>
+      </div>
+        <p class="forgot-p">
+          Forgot password ?
+        </p>
+        <button class="reg-btn">
+          REGISTER
+        </button>
+        <div class="or">
+          <hr> <span>OR</span> <hr>
+        </div>
+        <button class="google">
+          <div class="icon">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 15.1219L5.05762 18.5014L1.61324 18.5714C0.583872 16.7373 0 14.6389 0 12.4089C0 10.2526 0.545906 8.21911 1.51356 6.42859H1.5143L4.58077 6.96865L5.92407 9.89676C5.64292 10.6842 5.48968 11.5294 5.48968 12.4089C5.48979 13.3635 5.66978 14.2781 6 15.1219Z" fill="#FBBB00"/>
+              <path d="M24.7856 10C24.9265 10.7599 25 11.5447 25 12.3467C25 13.2461 24.9076 14.1233 24.7317 14.9695C24.1344 17.8491 22.5737 20.3635 20.4117 22.1429L20.411 22.1422L16.9101 21.9593L16.4146 18.7926C17.8492 17.9312 18.9704 16.5832 19.561 14.9695H13V10H19.6567H24.7856Z" fill="#518EF8"/>
+              <path d="M19.9993 22.2172L20 22.2179C17.8392 23.9585 15.0943 25 12.1063 25C7.30447 25 3.12968 22.3103 1 18.3521L5.08613 15C6.15095 17.848 8.89236 19.8754 12.1063 19.8754C13.4877 19.8754 14.7819 19.5011 15.8924 18.8478L19.9993 22.2172Z" fill="#28B446"/>
+              <path d="M20 2.85344L15.9677 6.14068C14.8332 5.43448 13.492 5.02653 12.0552 5.02653C8.81077 5.02653 6.05398 7.10633 5.0555 10L1.00068 6.69436H1C3.07153 2.71724 7.24465 0 12.0552 0C15.0753 0 17.8444 1.07125 20 2.85344Z" fill="#F14336"/>
+              </svg>
+          </div>
+         <span>SIGN UP WITH GOOGLE</span>
+        </button>
+        <div class="sign-in-link">
+          <p>Already Have an Account?</p>
+          <a routerLink="/login">Sign In</a >
+        </div>
+  </div>   
+  <div class="illustration">
+    <img src="assets/images/diaryAccess.png" alt="">
+  </div>
+</div>
 </div>
