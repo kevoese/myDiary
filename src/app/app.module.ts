@@ -8,6 +8,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { RegisterComponent } from './components/Pages/register/register.component';
 import { AuthFormComponent } from './components/auth-form/auth-form.component';
+import { FormInputComponent } from './components/Forms/form-input/form-input.component';
+import { LoginComponent } from './components/Pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AuthFormComponent } from './components/auth-form/auth-form.component';
     NavbarComponent,
     AboutComponent,
     RegisterComponent,
-    AuthFormComponent
+    AuthFormComponent,
+    FormInputComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

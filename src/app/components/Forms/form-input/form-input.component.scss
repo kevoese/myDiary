@@ -1,0 +1,35 @@
+.form-input {
+  min-width: 160px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Roboto', sans-serif;
+  margin: 1em 0 0 0;
+  label {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+  }
+  input {
+    font-size: 0.85em;
+    background-color: rgba(196, 196, 196, 0.1);
+    padding: 0.8em 1em;
+    padding-right: 2.7em;
+    font-weight: 300;
+    border: 1px solid #BFBFBF;
+  }
+  .icon {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    cursor: pointer;
+    div {
+      position: absolute;
+    }
+    
+  }
+}
+
+.form-password{
+ 
+}

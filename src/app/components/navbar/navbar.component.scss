@@ -40,6 +40,8 @@
     button {
       margin: 0 1em;
       border: 2px solid white;
+      color: white;
+      font-family: 'Aclonica', sans-serif;
       padding: 1em 1em;
       width: 8em;
       background-color: transparent;
@@ -63,6 +65,7 @@
   .auth-links {
     button {
       border-color: #0066ff !important;
+      color: #0066ff !important;
     }
   }
 }
