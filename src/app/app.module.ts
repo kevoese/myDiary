@@ -3,17 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-
-@NgModule({
-  declarations: [
-    AppComponent
-=======
 import { HomeComponent } from './components/Pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { RegisterComponent } from './components/Pages/register/register.component';
 import { AuthFormComponent } from './components/auth-form/auth-form.component';
+import { FormInputComponent } from './components/Forms/form-input/form-input.component';
+import { LoginComponent } from './components/Pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +18,9 @@ import { AuthFormComponent } from './components/auth-form/auth-form.component';
     NavbarComponent,
     AboutComponent,
     RegisterComponent,
-    AuthFormComponent
->>>>>>> parent of c606ae3... Set up login and register page
+    AuthFormComponent,
+    FormInputComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
